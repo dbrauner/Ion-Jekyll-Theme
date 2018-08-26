@@ -2,18 +2,18 @@
 <header id="header"  class="skel-layers-fixed">
     <!-- <h2><a href="{{ site.baseurl }}/" class="site-title" >{{ site.title }}</a></h2> -->
     <nav id="nav">
-        <ul style="align-items: center;">
+        <ul>
             <li><a href="{{ site.baseurl }}/">Home</a></li>
-            <li><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li>
-            <li><a href="{{ site.baseurl }}/right-sidebar.html">Right Sidebar</a></li>
-            <li><a href="{{ site.baseurl }}/no-sidebar.html">No Sidebar</a></li>
-            <li><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
+            <!-- <li><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li> -->
+            <li><a href="https://goo.gl/forms/VIdoAAMEp6goyeO42">Confirmar Presença</a></li>
+            <li><a href="{{ site.baseurl }}/no-sidebar.html">Lista de Presentes</a></li>
+            <li><a href="{{ site.baseurl }}/blog.html">Como chegar</a></li>
             {% for page in site.pages %}
                   {% if page.title %}
                     <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
                   {% endif %}
             {% endfor %}
-            <li><a href="#" class="button special">Sign Up</a></li>
+            <!-- <li><a href="#" class="button special">Sign Up</a></li> -->
         </ul>
     </nav>
 </header>

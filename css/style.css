@@ -987,9 +987,9 @@
 
 	#banner {
 		background-color: #666666;
-		background-image: url("../images/banner.jpg");
+		background-image: url("../images/capa.jpg");
 		background-size: cover;
-		background-position: center center;
+		background-position: top center;
 		background-repeat: no-repeat;
 		color: #d8d8d8;
 		padding: 14em 0;
