@@ -207,6 +207,7 @@
 
 	form {
 		margin: 0 0 2em 0;
+		text-align: center;
 	}
 
 	label {
@@ -766,8 +767,16 @@
 		input[type="button"].small,
 		.button.small {
 			font-size: 0.7em;
+			width: 300px;
 		}
 
+		input[type="submit"].xsmall,
+		input[type="reset"].xsmall,
+		input[type="button"].xsmall,
+		.button.xsmall {
+			font-size: 0.7em;
+			width: 300px;
+		}
 		input[type="submit"].big,
 		input[type="reset"].big,
 		input[type="button"].big,

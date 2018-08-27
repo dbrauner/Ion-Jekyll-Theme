@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<!-- Main -->
+<section id="main" class="wrapper style1">
+    <header class="major">
+        <h2>Área restrita</h2>
+        <p>Digite a senha para acessar a página</p>
+    </header>
+    <!-- <div class="container align-center"> -->
+        <section>
+            <form>
+            <div class="container small align-center">
+                <!-- <div class="size-small"></div> -->
+    <!-- <label for="pswd">Enter your password: </label> -->
+            
+                <input type="password" id="pswd">
+            
+            <!-- <br/> -->
+            <input type="button" value="Enviar" onclick="checkPswd();" />
+            </div>
+        </div>
+            <!-- </div> -->
+            </form>
+<!--Function to check password the already set password is admin-->
+            <script type="text/javascript">
+                function checkPswd() {
+                    var confirmPassword = "11112018";
+                    var password = document.getElementById("pswd").value;
+                    if (password == confirmPassword) {
+                         window.location="informacoes-aos-padrinhos.html";
+                    }
+                    else{
+                        alert("Senha incorreta!");
+                    }
+                }
+            </script>  
+    </div>
+</section>
