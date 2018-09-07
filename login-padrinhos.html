@@ -9,37 +9,37 @@ layout: default
     </header>
     <!-- <div class="container align-center"> -->
     <section>
-        <form>
             <div class="container">
                 <div class="row">
                     <div class="4u">
                         <section class="special">
                             <a href="#" class="image fit">
-                            <img src="images/transparent.jpg" alt="" /></a>
+                            <img src="{{ site.baseurl }}/images/transparent.jpg" alt="" /></a>
                         </section>
                     </div>
                     <div class="4u">
                         <section class="special">
                             <a href="#" class="image fit">
-                            <img src="images/transparent.jpg" alt="" /></a>
+                            <img src="{{ site.baseurl }}/images/transparent.jpg" alt="" /></a>
                             
+        <form id="myform">
                             <input type="password" id="pswd"><br/>
                             
                             <!-- <br/> -->
-                            <input type="button" value="Enviar" onclick="checkPswd();" />
+                            <input type="button" id="btpswd" value="enviar" onclick="checkPswd();" />
+    </form>
                         </section>
                     </div>
                     <div class="4u">
                         <section class="special">
                             <a href="#" class="image fit">
-                            <img src="images/transparent.jpg" alt="" /></a>
+                            <img src="{{ site.baseurl }}/images/transparent.jpg" alt="" /></a>
                         </section>
                     </div>
                 </div>
             </div>
         </div>
         <!-- </div> -->
-    </form>
     <!--Function to check password the already set password is admin-->
     <script type="text/javascript">
     function checkPswd() {
